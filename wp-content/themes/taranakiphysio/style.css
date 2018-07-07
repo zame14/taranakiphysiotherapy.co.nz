@@ -239,6 +239,9 @@ hr {
     padding: 10px;
     background-color: #febc06;
 }
+.staff-wrapper .staff {
+    margin-bottom: 30px;
+}
 .loader {
     position: absolute;
     bottom: 0;
@@ -532,6 +535,25 @@ ul.wsp-pages-list {
 }
 ul.wsp-pages-list li a, ul.wsp-services-list li a {
     color: #000000;
+}
+.photographer-wrapper {
+    position: absolute;
+    bottom: 0;
+}
+.photographer-wrapper a {
+    display: block;
+    width: 150px;
+    position: relative;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+.photographer-wrapper img {
+    width: 110px;
+}
+.photographer-wrapper span {
+    display: inline-block;
+    margin-top: 10px;
 }
 .sitemap {
     margin-top: 20px;
@@ -965,5 +987,9 @@ ul.wsp-pages-list li a, ul.wsp-services-list li a {
     }
     .staff-wrapper a {
         bottom: 130px;
+    }
+    .photographer-wrapper {
+        position: relative;
+        margin-top: 20px;
     }
 }

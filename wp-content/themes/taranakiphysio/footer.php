@@ -48,6 +48,9 @@ $setting_strat = new Setting(31);
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
                 <h3>Our Hours</h3>
                 <?=$setting_ing->getHours()?>
+                <div class="photographer-wrapper">
+                    <a href="https://www.facebook.com/TobyBaldwinPhotography/" target="_blank"><img src="<?=get_stylesheet_directory_uri()?>/images/tobybaldwinphotography.png" alt="Toby Baldwin Photography" /><span>Photos by Toby Baldwin Photography</span></a>
+                </div>
             </div>
         </div>
         <div class="row">
